@@ -1,0 +1,8 @@
+------- REPORTE DE ESCANEO DE PUERTOS -------
+Fecha: vie 02 may 2025 19:10:04 CST
+Objetivo: 192.168.56.1
+Puertos: 20,80,443
+
+Puerto 20: Cerrado
+Puerto 80: Cerrado
+Puerto 443: Cerrado

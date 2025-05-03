@@ -1,0 +1,37 @@
+Reporte de Monitoreo de Red
+Fecha: vie 02 may 2025 18:46:41 CST
+
+--- Conexiones Activas ---
+Netid State  Recv-Q Send-Q    Local Address:Port  Peer Address:PortProcess                                   
+udp   UNCONN 0      0               0.0.0.0:35603      0.0.0.0:*    users:(("avahi-daemon",pid=589,fd=14))   
+udp   UNCONN 0      0               0.0.0.0:5353       0.0.0.0:*    users:(("avahi-daemon",pid=589,fd=12))   
+udp   UNCONN 0      0            127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=478,fd=16))
+udp   UNCONN 0      0         127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=478,fd=14))
+udp   ESTAB  0      0      10.0.2.15%enp0s3:68        10.0.2.2:67   users:(("NetworkManager",pid=669,fd=26)) 
+udp   UNCONN 0      0                  [::]:42162         [::]:*    users:(("avahi-daemon",pid=589,fd=15))   
+udp   UNCONN 0      0                  [::]:5353          [::]:*    users:(("avahi-daemon",pid=589,fd=13))   
+tcp   LISTEN 0      4096         127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=478,fd=17))
+tcp   LISTEN 0      4096          127.0.0.1:631        0.0.0.0:*    users:(("cupsd",pid=793,fd=7))           
+tcp   LISTEN 0      4096      127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=478,fd=15))
+tcp   LISTEN 0      4096              [::1]:631           [::]:*    users:(("cupsd",pid=793,fd=6))           
+
+--- Ancho de Banda -------
+Database updated: 2025-05-02 18:45:00
+
+   enp0s3 since 2025-05-02
+
+          rx:  3.93 KiB      tx:  2.88 KiB      total:  6.81 KiB
+
+   monthly
+                     rx      |     tx      |    total    |   avg. rate
+     ------------------------+-------------+-------------+---------------
+       2025-05      3.93 KiB |    2.88 KiB |    6.81 KiB |       87 bit/s
+     ------------------------+-------------+-------------+---------------
+     estimated     14.45 MiB |    9.63 MiB |   24.08 MiB |
+
+   daily
+                     rx      |     tx      |    total    |   avg. rate
+     ------------------------+-------------+-------------+---------------
+         today      3.93 KiB |    2.88 KiB |    6.81 KiB |       87 bit/s
+     ------------------------+-------------+-------------+---------------
+     estimated         4 KiB |       3 KiB |       7 KiB |
