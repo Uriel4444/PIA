@@ -1,0 +1,13 @@
+Resumen de hallazgos y utilidad del proyecto
+
+El flujo permite identificar IPs activas y etiquetarlas como maliciosas usando una lista negra local.
+
+Se genera un CSV con marcas claras (“SI” o “NO”) y firmado con SHA-256, asegurando su integridad.
+
+Las IPs peligrosas se bloquean automáticamente usando reglas de Firewall sin crear duplicados.
+
+Todos los scripts usan herramientas integradas de Python o PowerShell, por lo que no requieren instalar librerías externas.
+
+El sistema es fácilmente portable a Linux y puede ampliarse para usar APIs externas como VirusTotal o AbuseIPDB.
+
+Ideal como base educativa para enseñar automatización básica en ciberseguridad: extracción, análisis y defensa.
